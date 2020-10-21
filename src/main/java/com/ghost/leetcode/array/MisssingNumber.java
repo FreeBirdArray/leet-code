@@ -1,7 +1,5 @@
 package com.ghost.leetcode.array;
 
-import java.util.Arrays;
-
 /**
  * @auther NorthernGhost
  * @date 2020/10/21 19:56
@@ -20,6 +18,12 @@ public class MisssingNumber {
 
 
     public static int missingNumber(int[] nums){
-        return (nums.length*(nums.length+1))/2-Arrays.stream(nums).sum();
+
+        int sum = (nums.length*(nums.length+1))/2;
+        int sum1 = 0;
+        for (int num : nums) {
+            sum1+=num;
+        }
+        return sum-sum1;
     }
 }
