@@ -3,7 +3,7 @@ package com.ghost.leetcode.array;
 /**
  * @auther NorthernGhost
  * @date 2020/10/21 19:56
- * @description   leetCode第286题
+ * @description   leetCode第268题
  * @Version 1.0
  */
 public class MisssingNumber {
