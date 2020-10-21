@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * @Author NorthernGhost
- * @Description
+ * @Description   leetCode第1题
  * @Date 2020/10/21 16:40
  * @Version 1.0
  */
